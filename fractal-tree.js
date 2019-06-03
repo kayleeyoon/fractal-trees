@@ -16,9 +16,6 @@ function draw() {
     context.fillStyle = sunset;
     context.fillRect(0, 0, this.width, this.height);
     this.context.translate(this.width / 2, this.height);
-}
-
-function handleClick() {
     makeBranch(75);
 }
 
